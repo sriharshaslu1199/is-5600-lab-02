@@ -190,6 +190,7 @@ function renderPortfolio(event, users, stocks) {
             users[i].user.email = document.querySelector('#email').value;     
 
             generateUserList(users, stocks);
+            
         }
     }
   });
